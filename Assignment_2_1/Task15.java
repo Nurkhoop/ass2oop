@@ -15,7 +15,6 @@ public class Task15 {
 
         for(int i = 0; i < 3; i++) {
             for(int j = i + 1; j < 3; j++) {
-                // Меняем элементы местами
                 int temp = array[i][j];
                 array[i][j] = array[j][i];
                 array[j][i] = temp;
