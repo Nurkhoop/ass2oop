@@ -11,7 +11,6 @@ public class Task7 {
             strings[i] = scanner.nextLine();
         }
 
-        // Удаление повторяющихся строк
         for(int i = 0; i < strings.length; i++) {
             if(strings[i] != null) {
                 for(int j = i + 1; j < strings.length; j++) {
@@ -23,7 +22,6 @@ public class Task7 {
             }
         }
 
-        // Вывод массива после удаления повторяющихся строк
         for(int i = 0; i < strings.length; i++)  {
             System.out.print(strings[i] + ", ");
         }
